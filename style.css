@@ -16,11 +16,17 @@ a:hover {
   text-decoration: underline;
 }
 
+@font-face {
+  font-family: 'Fugue';
+  scr: url('fugue-regular.ttf') format ('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 #barrauol {
   background-color: #262626;
   color: #FFF;
-  font: 14px UOLText, sans-serif, Helvetica, Arial;
+  font: 14px UOLText, 'fugue';
   padding: 0 40px;
   height: 30px;
   align-items: center;
@@ -84,6 +90,7 @@ header {
   top: 8px;
   width: 100%;
   transition: all 0.3s ease;
+  font-family: 'fugue';
 }
 
 #header>.container .bt-main-menu {
@@ -92,6 +99,7 @@ header {
   height: 22px;
   line-height: 22px;
   margin: 0 0 0 15px;
+  font-family: 'fugue';
 }
 
 .container .bt-main-menu-tx {
@@ -100,6 +108,7 @@ header {
   line-height: 21px;
   margin: 4px 0 0 12px;
   padding: 0 4px;
+  font-family: 'fugue';
 }
 
 .bg-trip {
@@ -113,7 +122,7 @@ header {
 #header>.container .tagline {
   color: #838383;
   float: left;
-  font-family: 'fuguemono';
+  font-family: 'fugue';
   font-size: 0.85em;
   padding: 5px 0 0 35px;
   text-transform: uppercase;
@@ -142,7 +151,7 @@ header {
   font-size: 0.75em;
   line-height: 2.2em;
   float: left;
-  font-family: 'fuguemono';
+  font-family: 'fugue';
   font-weight: normal;
   margin: 0;
   text-transform: uppercase;
@@ -208,6 +217,7 @@ label {
 #webdoor .thumb {
   background-size: cover;
   width: 100%;
+  top: -70px;
 }
 
 #webdoor .carousel .item img {
@@ -216,7 +226,7 @@ label {
 }
 
 #webdoor .item .container {
-  margin-top: -35px;
+  margin-top: -110px;
   position: relative;
   text-align: center;
   transition: margin 0.2s ease;
@@ -233,7 +243,7 @@ label {
   --background-color: #FF0000;
   box-shadow: 0 0 0 12px var(--background-color);
   background-color: var(--background-color);
-  font-family: 'fugueregular', sans-serif;
+  font-family: 'fugue';
   display: inline;
   font-size: 2.5em;
   line-height: 1.5em;
@@ -248,7 +258,7 @@ label {
   margin-right: auto;
   max-width: 850px;
   text-align: center;
-  font-family: 'fugueregular', sans-serif;
+  font-family: 'fugue';
 }
 
 .item .container footer {
@@ -256,6 +266,9 @@ label {
   margin-left: auto;
   margin-right: auto;
   max-width: 850px;
+  background: #ffffff;
+  padding: 35px 0;
+  box-sizing: border-box;
 }
 
 .pull-left {
@@ -263,7 +276,7 @@ label {
 }
 
 .item .container footer .tags {
-  font-family: 'fuguemono';
+  font-family: 'fugue';
   font-size: 0.85em;
   padding: 0 0 5px;
   text-transform: uppercase;
@@ -289,7 +302,7 @@ label {
 .item .container footer time {
   color: #878585;
   float: left;
-  font-family: 'fuguemono';
+  font-family: 'fugue';
   font-size: 0.8em;
   line-height: 20px;
   padding-right: 15px;
