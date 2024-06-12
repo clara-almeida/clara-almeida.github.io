@@ -50,30 +50,27 @@ header {
 #header>.container {
   padding-bottom: 10px;
   padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.container:before,
-.container:after {
-  display: table;
-  content: " ";
-}
 
 #header>.container .logo {
   height: 105px;
   width: 105px;
+  position: absolute;
+  z-index: 999;
 }
 
 .logo {
   background: url(https://revistatrip.uol.com.br/img/logo/trip.png) no-repeat left top;
   background-size: contain;
-  float: left;
-  height: 100px;
-  width: 460px;
+  /* float: left; */
   transition: all 0.2s ease;
 }
 
 .container #bt-menu {
-  float: left;
+  /* float: left; */
   margin: 4px 0 0 0;
   height: 22px;
   position: relative;
@@ -94,7 +91,7 @@ header {
 }
 
 #header>.container .bt-main-menu {
-  float: left;
+  /* float: left; */
   font-size: 1.1 em;
   height: 22px;
   line-height: 22px;
@@ -437,4 +434,8 @@ label {
 ##trip-tv-home .thumb .play:after {
   border-width: 20px 0 20px 30px;
   left: 10px;
+}
+
+main {
+  overflow: hidden;
 }
