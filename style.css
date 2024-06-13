@@ -27,12 +27,12 @@ a:hover {
   background-color: #262626;
   color: #FFF;
   font: 14px UOLText, 'fugue';
-  padding: 0 40px;
-  height: 30px;
+  padding: 0 10px;
+  height: 44px;
   align-items: center;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 header {
@@ -40,7 +40,7 @@ header {
   margin-bottom: auto;
   right: 0;
   width: 100%;
-  height: 40px;
+  height: 45px;
   justify-content: space-between;
   align-items: center;
   padding: 0 40px;
@@ -51,15 +51,15 @@ header {
   padding-bottom: 10px;
   padding-top: 10px;
   display: flex;
-  justify-content: space-between;
 }
 
 
 #header>.container .logo {
-  height: 105px;
-  width: 105px;
+  height: 250px;
+  width: 250px;
   position: absolute;
   z-index: 999;
+  top: 120px;
 }
 
 .logo {
@@ -160,7 +160,7 @@ label {
 }
 
 #header .follow div {
-  margin-top: -4px;
+  margin-top: 0px;
   float: right;
 }
 
@@ -193,6 +193,7 @@ label {
   margin: 8px 15px;
   text-transform: uppercase;
   font-size: .75em;
+  padding-left: 900px;
 }
 
 #header .menu-webstories a {
@@ -200,6 +201,7 @@ label {
   padding: 0 15px;
   line-height: 1;
   display: block;
+  font-family: fugue; 
 }
 
 .webdoor {
@@ -384,6 +386,7 @@ label {
   display: block;
   font-size: 1em;
   padding: 15px 0 0;
+  font-family: fugue; 
 }
 
 #htrip-tv-home .thumb .play {
